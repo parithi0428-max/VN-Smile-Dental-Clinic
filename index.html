@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101D35">
+  <meta name="description" content="VN Smile Dental Clinic in Butterworth, Penang. Contact the clinic for appointments and treatment enquiries.">
+  <title>VN Smile Dental Clinic | Premium Dental Care in Butterworth</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--green:#101D35;--green2:#263B5B;--mint:#F1E8D8;--cream:#F8F6F1;--ink:#18243A;--muted:#697487;--gold:#C8A96B}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--cream);color:var(--ink);font-family:"DM Sans",sans-serif}
+    a{color:inherit;text-decoration:none} .container{width:min(1160px,92%);margin:auto}
+    .topbar{background:var(--green);color:#F5F1E8;font-size:13px;padding:10px 0}.topbar .container{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    header{background:#FFFEFC;position:sticky;top:0;z-index:20;border-bottom:1px solid #E7E0D4}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:12px}.logo{width:43px;height:43px;border-radius:14px;background:var(--green);border:1px solid #C8A96B;display:grid;place-items:center;color:#E7D4AD;font-family:Manrope;font-weight:800;font-size:19px}
+    .brand strong{display:block;font-family:Manrope;font-size:18px;letter-spacing:-.5px}.brand small{color:var(--muted);font-size:11px;letter-spacing:1.5px;text-transform:uppercase}
+    nav{display:flex;align-items:center;gap:28px;font-size:14px;color:#45605b}nav a:hover{color:var(--green2)}
+    .nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:999px;padding:13px 21px;font-weight:700;font-size:14px;transition:.2s}
+    .nav-cta,.btn-primary{background:var(--green);color:#fff}.nav-cta:hover,.btn-primary:hover{background:var(--green2);transform:translateY(-2px)}
+    .hero{padding:76px 0 70px;background:radial-gradient(circle at 82% 22%,#E7DFD1 0,transparent 29%),linear-gradient(120deg,#FBFAF7,#F0EDE6)}
+    .hero-grid{display:grid;grid-template-columns:1.12fr .88fr;align-items:center;gap:55px}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;background:#F1E8D8;color:var(--green2);padding:8px 13px;border-radius:99px;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase}
+    h1,h2,h3{font-family:Manrope,sans-serif}h1{font-size:clamp(42px,5.6vw,68px);line-height:1.08;letter-spacing:-2.7px;margin:20px 0;color:var(--green)}
+    .hero p{font-size:17px;line-height:1.8;color:#5d716c;max-width:560px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn-outline{border:1px solid #D7CCB8;color:var(--green);background:#FFFEFC}.btn-outline:hover{border-color:var(--green);transform:translateY(-2px)}
+    .hero-card{background:var(--green);color:#fff;border-radius:28px;padding:34px;min-height:360px;position:relative;overflow:hidden;box-shadow:0 24px 55px #101D3522}
+    .hero-card:before,.hero-card:after{content:"";position:absolute;border:1px solid #ffffff25;border-radius:50%}.hero-card:before{width:290px;height:290px;right:-85px;top:-85px}.hero-card:after{width:220px;height:220px;right:-48px;top:-48px}
+    .tooth{font-size:96px;line-height:1;margin:14px 0 28px;position:relative;z-index:1}.hero-card h2{font-size:25px;line-height:1.25;max-width:300px;position:relative;z-index:1}.hero-card p{font-size:14px;color:#D7DCE5;line-height:1.7;position:relative;z-index:1}
+    .rating{display:flex;align-items:center;gap:13px;margin-top:26px}.stars{color:var(--gold);letter-spacing:3px;font-size:19px}.rating strong{font-size:22px}.rating span{font-size:12px;color:#D7DCE5}
+    .stats{background:#FFFEFC;border-bottom:1px solid #E7E0D4}.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);padding:25px 0}.stat{text-align:center;border-right:1px solid #E7E0D4}.stat:last-child{border:0}.stat strong{display:block;font:800 24px Manrope;color:var(--green)}.stat span{font-size:12px;color:var(--muted)}
+    section{padding:82px 0}.section-head{text-align:center;max-width:650px;margin:0 auto 42px}.section-head .eyebrow{margin-bottom:12px}.section-head h2{font-size:clamp(30px,4vw,43px);letter-spacing:-1.5px;color:var(--green);margin:8px 0 12px}.section-head p{color:var(--muted);line-height:1.8}
+    .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service{background:#FFFEFC;border:1px solid #E7E0D4;border-radius:20px;padding:27px;box-shadow:0 12px 35px #101D3508}.service-icon{width:48px;height:48px;background:var(--mint);border-radius:15px;display:grid;place-items:center;font-size:22px}.service h3{font-size:18px;margin:20px 0 8px;color:var(--green)}.service p{font-size:14px;line-height:1.7;color:var(--muted);margin:0}
+    .note{font-size:12px;color:#788984;text-align:center;margin-top:20px}
+    .about{background:#F0EDE6}.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:55px;align-items:center}.about-visual{min-height:330px;border-radius:26px;background:linear-gradient(145deg,#263B5B,#101D35);display:flex;align-items:center;justify-content:center;color:white;font-size:110px;position:relative;overflow:hidden}.about-visual:after{content:"";position:absolute;width:270px;height:270px;border:1px solid #ffffff35;border-radius:50%}
+    .about-copy h2{font-size:38px;line-height:1.15;color:var(--green);letter-spacing:-1.4px}.about-copy p{color:var(--muted);line-height:1.85}.check{display:flex;gap:10px;margin:14px 0;color:#355650;font-size:14px}.check b{color:var(--green2)}
+    .reviews{background:#FFFEFC}.review-card{max-width:800px;margin:auto;padding:34px;border:1px solid #E7E0D4;border-radius:22px;text-align:center;box-shadow:0 18px 45px #101D3508}.review-card .stars{font-size:23px}.review-card h3{font-size:22px;color:var(--green)}.review-card p{color:var(--muted);line-height:1.8}.review-card small{color:#80918c}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.contact-card{background:#FFFEFC;border:1px solid #e7efea;border-radius:22px;padding:28px;box-shadow:0 12px 35px #101D3508}.contact-card h3{color:var(--green);font-size:20px;margin:0 0 20px}.detail{display:flex;gap:13px;margin:18px 0}.detail .ico{width:38px;height:38px;border-radius:12px;background:var(--mint);display:grid;place-items:center;flex-shrink:0}.detail strong{display:block;font-size:14px;margin-bottom:4px}.detail span,.detail a{font-size:13px;color:var(--muted);line-height:1.6}.detail a:hover{color:var(--green2)}
+    .map{width:100%;height:260px;border:0;border-radius:18px;background:#E9E5DC}.contact-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+    footer{background:#0B1426;color:#F1EDE5;padding:35px 0}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}.footer-row small{color:#C9B58C}
+    @media(max-width:800px){nav{display:none}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero{padding:55px 0}.hero-card{min-height:300px}.service-grid{grid-template-columns:1fr 1fr}.about-visual{min-height:240px}.stats-grid{grid-template-columns:1fr}.stat{padding:13px;border-right:0;border-bottom:1px solid #E7E0D4}.stat:last-child{border:0}}
+    @media(max-width:520px){.service-grid{grid-template-columns:1fr}.nav{height:68px}.nav-cta{padding:11px 14px;font-size:12px}.brand strong{font-size:16px}h1{letter-spacing:-1.8px}.hero-card{padding:26px}.contact-card{padding:22px}section{padding:62px 0}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="container"><span>📍 Butterworth, Penang</span><span>Call us: <a href="tel:+60102605695">010-260 5695</a></span></div></div>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home"><div class="logo">VN</div><div><strong>VN Smile</strong><small>Dental Clinic · Butterworth</small></div></a>
+      <nav><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></nav>
+      <a class="nav-cta" href="https://wa.me/60102605695" target="_blank" rel="noopener">WhatsApp ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Your smile matters</span>
+          <h1>A brighter smile starts with a visit.</h1>
+          <p>Welcome to VN Smile Dental Clinic in Butterworth, Penang. Get in touch with our team for appointment enquiries and information about dental care.</p>
+          <div class="actions"><a class="btn btn-primary" href="https://wa.me/60102605695" target="_blank" rel="noopener">Chat on WhatsApp ↗</a><a class="btn btn-outline" href="#contact">Find our clinic</a></div>
+        </div>
+        <div class="hero-card">
+          <div class="tooth">✧</div>
+          <h2>Care for your smile, every step of the way.</h2>
+          <p>VN Smile Dental Clinic · Butterworth, Pulau Pinang</p>
+          <div class="rating"><div><strong>4.9</strong><div class="stars">★★★★★</div></div><span>Based on 232 Google reviews<br>as supplied in the clinic listing</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="stats"><div class="container stats-grid">
+      <div class="stat"><strong>4.9 / 5</strong><span>Google rating shown in listing</span></div>
+      <div class="stat"><strong>232</strong><span>Google reviews shown in listing</span></div>
+      <div class="stat"><strong>Butterworth</strong><span>Penang, Malaysia</span></div>
+    </div></div>
+
+    <section id="services">
+      <div class="container">
+        <div class="section-head"><span class="eyebrow">Dental care</span><h2>Explore dental services</h2><p>These are dental treatments mentioned in the clinic information and patient review topics. Please contact the clinic to confirm current services, suitability and fees.</p></div>
+        <div class="service-grid">
+          <article class="service"><div class="service-icon">✦</div><h3>Dental Scaling</h3><p>Ask the clinic about professional teeth cleaning and scaling appointments.</p></article>
+          <article class="service"><div class="service-icon">◈</div><h3>EMS Scaling</h3><p>EMS scaling is mentioned in patient reviews. Contact the clinic for details and availability.</p></article>
+          <article class="service"><div class="service-icon">＋</div><h3>Wisdom Teeth</h3><p>Wisdom teeth removal appears among the review topics. Enquire with the clinic about assessment and treatment options.</p></article>
+        </div>
+        <p class="note">Service descriptions are general enquiry prompts, not a confirmed or complete clinic price list.</p>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div class="about-visual">✧</div>
+        <div class="about-copy"><span class="eyebrow">About VN Smile</span><h2>A local dental clinic in Butterworth.</h2>
+          <p>VN Smile Dental Clinic is located on the ground floor along Jalan Telaga Air, Kampung Benggali, Butterworth, Penang.</p>
+          <div class="check"><b>✓</b><span>Convenient Butterworth location</span></div>
+          <div class="check"><b>✓</b><span>WhatsApp and phone contact available</span></div>
+          <div class="check"><b>✓</b><span>Online clinic information at vnsmile.com.my</span></div>
+          <a class="btn btn-primary" href="https://vnsmile.com.my" target="_blank" rel="noopener">Visit clinic website ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <div class="container"><div class="section-head"><span class="eyebrow">Patient feedback</span><h2>Trusted by local patients</h2><p>The clinic listing supplied shows a 4.9-star rating from 232 reviews.</p></div>
+        <div class="review-card"><div class="stars">★★★★★</div><h3>4.9 out of 5</h3><p>Patients have highlighted positive experiences with scaling, clear explanations and friendly service in the reviews provided.</p><small>Review summary based on the Google listing details supplied. Individual experiences may vary.</small></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container"><div class="section-head"><span class="eyebrow">Visit us</span><h2>Get in touch with VN Smile</h2><p>Contact the clinic directly for appointment availability, opening hours and treatment enquiries.</p></div>
+        <div class="contact-grid">
+          <div class="contact-card"><h3>Clinic information</h3>
+            <div class="detail"><div class="ico">⌖</div><div><strong>Address</strong><span>5092, Ground Floor, Jalan Telaga Air,<br>Kampung Benggali, 12200 Butterworth,<br>Pulau Pinang, Malaysia</span></div></div>
+            <div class="detail"><div class="ico">☎</div><div><strong>Phone</strong><a href="tel:+60102605695">010-260 5695</a></div></div>
+            <div class="detail"><div class="ico">◷</div><div><strong>Opening hours</strong><span>Listing supplied: closes at 7:00 PM. Please call to confirm today's hours.</span></div></div>
+            <div class="detail"><div class="ico">◎</div><div><strong>Website</strong><a href="https://vnsmile.com.my" target="_blank" rel="noopener">vnsmile.com.my</a></div></div>
+            <div class="contact-actions"><a class="btn btn-primary" href="https://wa.me/60102605695" target="_blank" rel="noopener">WhatsApp ↗</a><a class="btn btn-outline" href="tel:+60102605695">Call clinic</a></div>
+          </div>
+          <div class="contact-card"><h3>Find us on the map</h3>
+            <iframe class="map" title="Map showing VN Smile Dental Clinic in Butterworth" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=VN%20Smile%20Dental%20Clinic%2C%205092%20Jalan%20Telaga%20Air%2C%20Butterworth%2C%20Penang&output=embed"></iframe>
+            <div class="contact-actions"><a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=VN+Smile+Dental+Clinic+5092+Jalan+Telaga+Air+Butterworth+Penang" target="_blank" rel="noopener">Get directions ↗</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container footer-row"><div class="brand"><div class="logo">VN</div><div><strong style="color:white">VN Smile</strong><small style="color:#C9B58C">Dental Clinic · Butterworth</small></div></div><small>© <span id="year"></span> VN Smile Dental Clinic. Website concept created for informational purposes.</small></div></footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
